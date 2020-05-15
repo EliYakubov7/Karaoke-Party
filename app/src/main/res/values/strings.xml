@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Karaoke Party</string>
+    <string name="default_title">Choose your song</string>
+    <string name="write_file_error">Couldn\'t write new file</string>
+    <string name="file_read_error">Couldn\'t load cached data for the reason:</string>
+    <string name="cover_was_changed">Cover was changed</string>
+    <string name="error_internet_connection">Please check your internet connection</string>
+    <string name="error_was_found">Error was found:</string>
+    <string name="connection_error">Error while loading list. Check your connection</string>
+
+
+    <string name="actual_name_of_singer" translatable="false">Actual Name Of Singer</string>
+    <string name="actual_name_of_song" translatable="false">Actual Name Of Song</string>
+    <string name="actual_number_of_album" translatable="false">Actual Number Of Album</string>
+    <string name="actual_lyrics" translatable="false">Actual Lyrics</string>
+
+    <string name="name_of_singer">Name Of Singer</string>
+    <string name="name_of_song">Name Of Song</string>
+    <string name="number_of_album">Number Of Album</string>
+    <string name="lyrics">Lyrics</string>
+    <string name="mp3">MP3 URL</string>
+
+    <string name="back_button">BACK</string>
+
+    <string name="add_new_song">Add New Song</string>
+    <string name="back_add_song">Back</string>
+    <string name="take_photo">TAKE PHOTO</string>
+    <string name="save">Save</string>
+    <string name="set_content_camera" translatable="false">none</string>
+
+    <string name="fill_all_fields">Incomplete details. Fill all the fields and try again</string>
+    <string name="denied_permission">Permission was denied</string>
+
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="warning">Warning</string>
+    <string name="dialog_delete_message">Are you sure you want to delete this song?</string>
+    <string name="todo" translatable="false">TODO</string>
+
+    <string name="player_error">Error initializing YouTube player: %s</string>
+    <string name="seek_to">Jump To</string>
+    <string name="seek_to_hint">Seconds</string>
+
+    <string name="testsong_20_sec" translatable="false">http://www.hrupin.com/wp-content/uploads/mp3/testsong_20_sec.mp3</string>
+
+    <string name="time_of_song" translatable="false">00:00</string>
+
+    <string name="play_video">Play Video</string>
+    <string name="youtube_url_code">Example : Code of youtube video on url : https://www.youtube.com/watch?v=cPvQuXBBVs4 .You need copy all the part after equals sign</string>
+    <string name="code">cPvQuXBBVs4</string>
+</resources>

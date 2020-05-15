@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Ofek Pintok on 12:35 31/03/20
+  -->
+
+<resources>
+    <string name="app_name">Karaoke Party</string>
+    <string name="fill_all_fields">פרטים חסרים. אנא מלא את כל השדות ונסה שוב</string>
+    <string name="save">שמור</string>
+    <string name="take_photo">צלם תמונה</string>
+    <string name="back_add_song">חזור</string>
+    <string name="back_button">חזור</string>
+    <string name="add_new_song">הוסף שיר חדש</string>
+    <string name="lyrics">מילים</string>
+    <string name="mp3">קישור mp3</string>
+    <string name="number_of_album">מספר אלבום</string>
+    <string name="name_of_song">שם השיר</string>
+    <string name="name_of_singer">שם הזמר</string>
+    <string name="default_title">בחר את השיר שלך</string>
+    <string name="write_file_error">לא יכול לכתוב קובץ חדש</string>
+    <string name="file_read_error">לא היתה יכולת לטעון נתונים שאוחסנו במטמון מהסיבה הבאה:</string>
+    <string name="cover_was_changed">עטיפה השתנתה</string>
+    <string name="error_internet_connection">אנא בדוק את חיבור האינרנט שלך</string>
+    <string name="error_was_found">שגיאה נמצאה:</string>
+    <string name="connection_error">שגיאה בעת טעינת הרשימה. בדוק את חיבור האינטרנט שלך.</string>
+    <string name="denied_permission">ההרשאה נדחתה</string>
+    <string name="no">לא</string>
+    <string name="yes">כן</string>
+    <string name="warning">אזהרה</string>
+    <string name="dialog_delete_message">האם אתה בטוח בהסרת השיר ?</string>
+    <string name="seek_to">קפיצה ל</string>
+    <string name="player_error">שגיאה באתחול נגן היוטיוב</string>
+    <string name="seek_to_hint">שניות</string>
+    <string name="play_video">נגן וידאו</string>
+    <string name="youtube_url_code">לדוגמא : קוד של וידאו מיוטיוב בקישור :  https://www.youtube.com/watch?v=cPvQuXBBVs4 . עליך להעתיק את כל החלק שאחרי הסימן שווה </string>
+    <string name="code">cPvQuXBBVs4</string>
+</resources>

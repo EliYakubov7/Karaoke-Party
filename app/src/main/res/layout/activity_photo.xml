@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Ofek Pintok on 13:15 31/03/20
+  -->
+
+<!--
+  ~ Created by Ofek Pintok on 5/30/19 8:25 AM
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.PhotoActivity">
+
+    <com.github.chrisbanes.photoview.PhotoView
+        android:id="@+id/fullscreen_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</FrameLayout>

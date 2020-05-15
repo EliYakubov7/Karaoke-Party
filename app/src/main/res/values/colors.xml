@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#CDE8FF</color>
+    <color name="defaultColor">#FAFAFA</color>
+    <color name="colorBackground">#E88989</color>
+    <color name="colorBackground2">#ED4949</color>
+    <color name="btnNotActive">#BDBDBD</color>
+    <color name="btnPressed">#01579B</color>
+    <color name="pale_blue">#99ccff</color>
+    <color name="black">#000000</color>
+
+    <color name="seekbar_bg">#141414</color>
+    <color name="seekbar_progress">#a53130</color>
+    <color name="seekbar_sec_progress">#875e5e</color>
+</resources>

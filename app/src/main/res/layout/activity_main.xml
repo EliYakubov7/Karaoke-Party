@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Created by Ofek Pintok on 8/3/19 2:42 PM
+  -->
+
+<!--
+  ~ Created by Ofek Pintok on 5/30/19 8:25 AM
+  -->
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/defaultColor"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context=".view.MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/main_add_singer_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="8dp"
+        app:backgroundTint="@color/pale_blue"
+        app:srcCompat="@drawable/ic_playlist_add_black_24dp" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/main_appbarlayout"
+        android:layout_width="match_parent"
+        android:layout_height="370dp"
+        android:fitsSystemWindows="true">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/main_collapsing_toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/defaultColor"
+            android:fitsSystemWindows="true"
+            app:contentScrim="@color/defaultColor"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/detailed_cover_iv"
+                android:layout_width="match_parent"
+                android:layout_height="370dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
