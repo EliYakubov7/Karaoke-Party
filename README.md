@@ -9,6 +9,7 @@ Update Coming Soon for search lyrics and video from youtube
 - The purpose of the application is to sing
 - The app uses : Persistent Storage & RecyclerView, Retrofit, Json, Youtube
 - The application supports two languages : English and Hebrew
+- You can add, remove and swipe between songs by long press and dragging the card
 
 
 ### Screenshots
