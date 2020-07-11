@@ -10,10 +10,10 @@ import retrofit2.http.GET;
 
 public interface SingerService {
 
-    String BASE_URL = "https://api.npoint.io/";
+    String BASE_URL = "YOUR_BASE_URL";
 
     // String EXTENSION = "androidexam.json";
 
-    @GET("1ec72bec9856f026479d")
+    @GET("YOUR_EXTENSION_OF_URL")
     Call<List<SingerResponse>> getSingers();
 }
